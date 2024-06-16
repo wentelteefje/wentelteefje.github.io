@@ -11,4 +11,4 @@ layout: "about"
 - **Education**: 
   - Master's degree in Mathematics from Free University of Berlin _(2021)_ - Thesis: _"The Weak Whitney Embedding Theorem"_.
 
-I'm always on the lookout for new challenges and opportunities to further explore the potential of Web3 technologies. Let's connect!
+I'm always on the lookout for new challenges and opportunities; let's connect!
