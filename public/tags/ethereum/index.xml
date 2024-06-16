@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ethereum on a5xz2</title>
+    <link>http://localhost:1313/tags/ethereum/</link>
+    <description>Recent content in Ethereum on a5xz2</description>
+    <image>
+      <title>a5xz2</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Aug 2022 00:33:46 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ethereum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Smart Contracts of the Ethereum Name System</title>
+      <link>http://localhost:1313/posts/post-001/</link>
+      <pubDate>Tue, 16 Aug 2022 00:33:46 +0200</pubDate>
+      <guid>http://localhost:1313/posts/post-001/</guid>
+      <description>This article aims to give an introduction to the ENS for blockchain developers by going through the smart contracts lying at the core of ENS.</description>
+    </item>
+  </channel>
+</rss>
