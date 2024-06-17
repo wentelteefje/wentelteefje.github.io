@@ -1,5 +1,5 @@
 ---
-title: "The Smart Contracts of the Ethereum Name System"
+title: "The Smart Contracts of the Ethereum Name Service"
 date: 2022-08-16T00:33:46+02:00
 draft: false
 tags: ["solidity", "ethereum"]
@@ -7,7 +7,7 @@ summary: This article aims to give an introduction to the ENS for blockchain dev
 ---
 
 # 1. Introduction
-## 1.1 What is the Ethereum Name System (ENS)?
+## 1.1 What is the Ethereum Name Service (ENS)?
 Most people probably first learn about the ENS from seeing people having `.eth` names as their twitter account name, for example `vitalik.eth`. The smart contracts of the ENS make it possible to resolve such a name as `vitalik.eth` to some registered Ethereum address (currently it resolves to: `0xd8da6bf26964af9d7eed9e03e53415d37aa96045`). This is a very useful feature for all users of Ethereum and most common web3 applications, such as MetaMask or DeBank already have it integrated. However, while the resolution of names to Ethereum addresses certainly is currently the biggest application of the ENS it's by far not the only use case. Among other things the ENS also allows your name to resolve to
 - crypto address of other blockchains,
 - content hashes (hashes for IPFS, Skynet, and Swarm, and Tor .onion addresses),
@@ -182,7 +182,7 @@ The EIP165 interface ID for this multicoin `addr` function is 0xf1cb7e06.
 This concludes our introduction to resolver contracts. For further reading, the chapter on the [PublicResolver](https://docs.ens.domains/contract-api-reference/publicresolver) from the official ENS documentation is recommended as a starting point.
 
 ## 2.4 Registrars
-We have so far covered the two main components of the Ethereum Name System. In the section on the registry, we saw that each node owner can in principle create as many subnodes as they wish. In practice, however, the creation of subnodes is typically managed by a smart contract, which can freely specify the conditions for acquiring a subdomain. In particular, this is the case for Top-Level Domains like ".eth". These smart contracts are called registrars. By design, each person who owns a domain (on any level) can manage the subdomains themselves, i.e. they can also deploy and use a registrar contract for administration as they wish.
+We have so far covered the two main components of the Ethereum Name Service. In the section on the registry, we saw that each node owner can in principle create as many subnodes as they wish. In practice, however, the creation of subnodes is typically managed by a smart contract, which can freely specify the conditions for acquiring a subdomain. In particular, this is the case for Top-Level Domains like ".eth". These smart contracts are called registrars. By design, each person who owns a domain (on any level) can manage the subdomains themselves, i.e. they can also deploy and use a registrar contract for administration as they wish.
 
 Let's look at an example. This registrar implementation allows anyone to call `register`, to obtain a subnode of some fixed parent node. After a period of 4 weeks the subnode will be available for registration again.
 ```solidity
@@ -246,7 +246,7 @@ As you can see registrars offer many possibilities to use your ENS domain in cre
 
 # 3. The Permanent Registrar
 
-Whew! Congratulations if you have made it this far - you are already familiar with all the basic components of the Ethereum Name System. In this final section, we'll have a look at some cool aspects of the `.eth` Permanent Registrar. This is the smart contract that manages the allocation of `.eth` domains on the Ethereum mainnet.
+Whew! Congratulations if you have made it this far - you are already familiar with all the basic components of the Ethereum Name Service. In this final section, we'll have a look at some cool aspects of the `.eth` Permanent Registrar. This is the smart contract that manages the allocation of `.eth` domains on the Ethereum mainnet.
 
 ## 3.1 .eth Domains are ERC-721 Tokens
 

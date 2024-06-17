@@ -8,7 +8,7 @@ cover:
   image: /img/zkhack/white-logo.png
 ---
 
-## 1. Puzzle Description
+## 1 Puzzle Description
 
 > Bob has invented a new pairing-friendly elliptic curve, which he wanted to use with Groth16.
 > For that purpose, Bob has performed a trusted setup, which resulted in an SRS containting
@@ -39,7 +39,7 @@ let Ap1 = u64::from_str_radix(&padded_bits, 2).unwrap();
 assert_eq!(1089478584172543, Ap1 - 1);
 ```
 
-## 2. Solution
+## 2 Solution
 ### 2.1 Cheon's Discrete Logarithm Attack
 [Cheon](http://www.math.snu.ac.kr/~jhcheon/publications/2010/StrongDH_JoC_Final2.pdf) proposed an algorithm for the discrete logarithm problem (DLP) with auxiliary inputs. In general, the DLP for a group $\mathbb{G}$ is defined as: For a given input $(g, g^\tau) \in \mathbb{G}^2$, compute $\tau \in \mathbb{F}_q$. The auxiliary input in Cheon's algorithm refers to the knowledge of an additional group element $g^{\tau^d}$. Suppose $g, g^{\tau}, g^{\tau^d} \in \mathbb{G}$ are given for a divisor $d$ of $q-1$. Let $$\tau = \zeta^{k_0 + k_1 \frac{q-1}{d}}$$ for $0 \leq k_0 < \frac{q-1}{d}$ and $0 \leq k_1 < d$ for a primitive element $\zeta$ of $\mathbb{F}_q^{\times}$. Then the secret element $\tau \in \mathbb{F}_q$ can be computed deterministically by a succession of two rounds of Baby-step Giant-step in $\mathcal{O}(\sqrt{q/d} + \sqrt{d})$ exponentiations and by using $\mathcal{O}(\max{(\sqrt{q/d}, \sqrt{d})})$ storage. In the following we will make use of this attack to solve the puzzle.
 
@@ -133,7 +133,7 @@ $$ \tau = 2^{k_0 + k_1 \frac{q-1}{d}} = 284865198031253921498207.$$
 let exp = (k0 as u128) + (k1 as u128) * (q1_d as u128);
 let tau = pow_sp(Fr::from(2u64), exp, 80);
 ```
-## 3. Complete Rust Implementation
+## 3 Complete Rust Implementation
 ```rust
 use ark_bls12_cheon::{Bls12Cheon, Fq12, Fr, G1Projective as G1, G2Projective as G2};
 
@@ -201,7 +201,7 @@ fn baby_step_giant_step<S: Field>(a: S, b: Fr, group_ord: u64, mut giant: S, spl
     None
 }
 ```
-## 4. References
+## 4 References
 [1] "Cheon's discrete log attack, and its relevance to zk-SNARKs" - https://hackmd.io/2oUhPtzWSRulLQ83Ctoy_g
 
 [^1]: This is because evidently $\tau^d \in H_1$, so $H_1$ is non-empty and for elements $g := x^d, h := y^d \in H_1$ we have $$gh^{-1} = x^d(y^d)^{-1} = x^d(y^{-1})^d = (xy^{-1})^d.$$It follows that $x^d(y^d)^{-1} \in H_1$ and from the One-Step Subgroup Test we conclude, that $H_1$ is indeed a subgroup of $\mathbb{F}_q^{\times}$.
