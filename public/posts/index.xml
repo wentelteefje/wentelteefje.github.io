@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- 0.125.7</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 May 2024 18:26:43 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2024 14:44:26 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ZK Hack - Power Corrupts Puzzle</title>
+      <title>ZK Hack - Power Corrupts Puzzle Solution</title>
       <link>http://localhost:1313/posts/zkhack-power-corrupts-puzzle/</link>
-      <pubDate>Fri, 24 May 2024 18:26:43 +0200</pubDate>
+      <pubDate>Fri, 31 May 2024 14:44:26 +0200</pubDate>
       <guid>http://localhost:1313/posts/zkhack-power-corrupts-puzzle/</guid>
-      <description>1. Puzzle Description Bob has invented a new pairing-friendly elliptic curve, which he wanted to use with Groth16. For that purpose, Bob has performed a trusted setup, which resulted in an SRS containting a secret $\tau$ raised to high powers multiplied by a specific generator in both source groups. The exact parameters of the curve and part of the output of the setup are described in the document linked below.</description>
+      <description>In this article, we implement a Cheon attack in Rust to solve the &amp;ldquo;Power Corrupts&amp;rdquo; puzzle, contributed by Stanford&amp;rsquo;s Applied Cryptography group. The focus is on the mathematical intricacies of the attack.</description>
+    </item>
+    <item>
+      <title>Block Authoring in Vara Network</title>
+      <link>http://localhost:1313/posts/gear/</link>
+      <pubDate>Fri, 24 May 2024 18:26:43 +0200</pubDate>
+      <guid>http://localhost:1313/posts/gear/</guid>
+      <description>In this article, we will explore how Vara Network&amp;rsquo;s custom block authoring implementation differs from the native Substrate implementation.</description>
     </item>
     <item>
       <title>ZK003: Elliptic Curve Arithmetic in Python</title>
@@ -42,7 +49,7 @@
       <description>In this series of articles we try to implement a toy version of the groth16 zk-snark in python.</description>
     </item>
     <item>
-      <title>The Smart Contracts of the Ethereum Name System</title>
+      <title>The Smart Contracts of the Ethereum Name Service</title>
       <link>http://localhost:1313/posts/post-001/</link>
       <pubDate>Tue, 16 Aug 2022 00:33:46 +0200</pubDate>
       <guid>http://localhost:1313/posts/post-001/</guid>

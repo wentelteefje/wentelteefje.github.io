@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo -- 0.125.7</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 May 2024 14:44:26 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2024 15:53:15 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ZK Hack - Power Corrupts Puzzle</title>
+      <title>Parity SCALE Codec Documentation</title>
+      <link>http://localhost:1313/projects/scale-page/</link>
+      <pubDate>Mon, 24 Jun 2024 15:53:15 +0200</pubDate>
+      <guid>http://localhost:1313/projects/scale-page/</guid>
+      <description>This is a standalone documentation website for Parity&amp;rsquo;s SCALE codec. It&amp;rsquo;s intended to serve as an introduction to the &lt;code&gt;parity-scale-codec&lt;/code&gt; crate for those new to Substrate development.</description>
+    </item>
+    <item>
+      <title>ZK Hack - Power Corrupts Puzzle Solution</title>
       <link>http://localhost:1313/posts/zkhack-power-corrupts-puzzle/</link>
       <pubDate>Fri, 31 May 2024 14:44:26 +0200</pubDate>
       <guid>http://localhost:1313/posts/zkhack-power-corrupts-puzzle/</guid>
@@ -49,25 +56,25 @@
       <description>In this series of articles we try to implement a toy version of the groth16 zk-snark in python.</description>
     </item>
     <item>
-      <title>The Smart Contracts of the Ethereum Name System</title>
+      <title>The Smart Contracts of the Ethereum Name Service</title>
       <link>http://localhost:1313/posts/post-001/</link>
       <pubDate>Tue, 16 Aug 2022 00:33:46 +0200</pubDate>
       <guid>http://localhost:1313/posts/post-001/</guid>
       <description>This article aims to give an introduction to the ENS for blockchain developers by going through the smart contracts lying at the core of ENS.</description>
     </item>
     <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
+      <title>Projects</title>
+      <link>http://localhost:1313/backup_projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
-      <description> &amp;ldquo;Knowledge augmented machine learning with applications in autonomous driving: A survey.&amp;rdquo; arXiv preprint arXiv:2205.04712 (2022). </description>
+      <guid>http://localhost:1313/backup_projects/</guid>
+      <description>Scientific Publications &amp;ldquo;Knowledge augmented machine learning with applications in autonomous driving: A survey.&amp;rdquo; arXiv preprint arXiv:2205.04712 (2022). </description>
     </item>
     <item>
       <title>よ！</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Experience: Technical Writer @ Parity Technologies (March 2023 - March 2024) Research Scientist @ Fraunhofer FOKUS (March 2021 - February 2023) Education: Master&amp;rsquo;s degree in Mathematics from Free University of Berlin (2021) - Thesis: &amp;ldquo;The Weak Whitney Embedding Theorem&amp;rdquo;. I&amp;rsquo;m always on the lookout for new challenges and opportunities to further explore the potential of Web3 technologies. Let&amp;rsquo;s connect!</description>
+      <description>Experience: Technical Writer @ Parity Technologies (March 2023 - March 2024) Research Scientist @ Fraunhofer FOKUS (March 2021 - February 2023) Education: Master&amp;rsquo;s degree in Mathematics from Free University of Berlin (2021) - Thesis: &amp;ldquo;The Weak Whitney Embedding Theorem&amp;rdquo;. I&amp;rsquo;m always on the lookout for new challenges and opportunities; let&amp;rsquo;s connect!</description>
     </item>
   </channel>
 </rss>

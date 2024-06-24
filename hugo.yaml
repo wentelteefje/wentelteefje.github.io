@@ -119,9 +119,9 @@ menu:
           name: writings
           url: /posts/
           weight: 20
-        - identifier: publications
-          name: publications
-          url: /publications/
+        - identifier: projects
+          name: projects
+          url: /projects/
           weight: 30
         - identifier: tags
           name: tags

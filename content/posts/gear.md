@@ -2,6 +2,7 @@
 title: 'Block Authoring in Vara Network'
 date: 2024-05-24T18:26:43+02:00
 draft: false
+tags: ["Vara Network", "Substrate", "Block Authoring", "Polkadot", "Rust"]
 summary: In this article, we will explore how Vara Network's custom block authoring implementation differs from the native Substrate implementation.
 math: true
 cover: 

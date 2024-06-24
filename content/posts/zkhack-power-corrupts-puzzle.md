@@ -1,8 +1,9 @@
 ---
-title: 'ZK Hack - Power Corrupts Puzzle'
+title: 'ZK Hack - Power Corrupts Puzzle Solution'
 date: 2024-05-31T14:44:26+02:00
 draft: false
 math: true
+tags: ["zk-hack", "cheon attack", "ECC", "Mathematics", "Rust"]
 summary: In this article, we implement a Cheon attack in Rust to solve the "Power Corrupts" puzzle, contributed by Stanford's Applied Cryptography group. The focus is on the mathematical intricacies of the attack.
 cover: 
   image: /img/zkhack/white-logo.png
