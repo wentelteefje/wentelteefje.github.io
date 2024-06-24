@@ -50,17 +50,17 @@
     <loc>http://localhost:1313/tags/vara-network/</loc>
     <lastmod>2024-05-24T18:26:43+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/groth16/</loc>
-    <lastmod>2022-08-27T14:32:44+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2022-08-27T14:32:44+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/zk-snarks/</loc>
     <lastmod>2022-08-27T14:32:44+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-004/</loc>
     <lastmod>2022-08-27T14:32:44+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/groth16/</loc>
+    <lastmod>2022-08-19T14:47:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zk-snarks/</loc>
+    <lastmod>2022-08-19T14:47:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-003/</loc>
     <lastmod>2022-08-19T14:47:32+02:00</lastmod>

@@ -7,6 +7,10 @@ summary: In this part of the series we review and start implementing extension f
 math: true
 ---
 
+{{< color color="red" >}}
+> Note: This is a draft article.
+{{< /color >}}
+
 # 1 Extension Field Arithmetic
 
 ## 1.1 Finite Fields of Prime Power

@@ -7,6 +7,10 @@ summary: In this part of the series we review and start implementing elliptic cu
 math: true
 ---
 
+{{< color color="red" >}}
+> Note: This is a draft article.
+{{< /color >}}
+
 # 1. Mathematical Review
 
 ## 1.1 The Optimal Ate pairing

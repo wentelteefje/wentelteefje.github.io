@@ -7,6 +7,10 @@ summary: In this series of articles we try to implement a toy version of the gro
 math: true
 ---
 
+{{< color color="red" >}}
+> Note: This is a draft article.
+{{< /color >}}
+
 Idea of this series: We try to obtain a solid grasp on current zk-snark protocols by implementing groth16 from the ground up. The field has evolved a lot in the past years and for a part-time project it's not feasible to come up with a production-grade implementation. The drawback is that we won't learn much about possible side-channel attacks, but instead we focus more on the mathematical workings of the protocols.
 
 # 1. Mathematical Review

@@ -20,5 +20,12 @@
       <guid>http://localhost:1313/posts/zkhack-power-corrupts-puzzle/</guid>
       <description>In this article, we implement a Cheon attack in Rust to solve the &amp;ldquo;Power Corrupts&amp;rdquo; puzzle, contributed by Stanford&amp;rsquo;s Applied Cryptography group. The focus is on the mathematical intricacies of the attack.</description>
     </item>
+    <item>
+      <title>ZK003: Elliptic Curve Arithmetic in Python</title>
+      <link>http://localhost:1313/posts/post-004/</link>
+      <pubDate>Sat, 27 Aug 2022 14:32:44 +0200</pubDate>
+      <guid>http://localhost:1313/posts/post-004/</guid>
+      <description>In this part of the series we review and start implementing elliptic curve arithmetic.</description>
+    </item>
   </channel>
 </rss>
